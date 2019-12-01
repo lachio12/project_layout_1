@@ -1,0 +1,86 @@
+body{
+	font-family: sans-serif;
+	margin:0;
+	padding: 0;
+}
+section#content .container{
+	background: #e7e8ea;
+}
+section#content .search{
+	display: flex;
+	flex-wrap: wrap;
+	background: #dddee0;
+}section#content .search .search_title{
+	width: 60%;
+	padding-top: 32px;
+	padding-left: 20px;
+}
+section#content .search .search_title h3{
+	margin: 0;
+	color: #69696a;
+	font-size: 27px;
+	font-weight: 300;
+
+}
+section#content .search .search_title p{
+	color: #5f7390;
+	margin:0 0 10px;
+}
+section#content .search button{
+	width: 20%;
+	height: 25px;
+	text-align: left;
+	margin-top: 30px;
+	border:none;
+	border-radius: 8px;
+	background: #fcfcfc;
+	display: flex;
+	justify-content: flex-start;
+	
+}
+.content-contact .contact-left{
+	margin:0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 60%;
+	justify-content: space-around;
+	align-items: center;
+}
+.content-contact .contact-left input,
+.content-contact .contact-left textarea{
+	width: 100%;
+	text-align: center;
+	justify-content: center;
+	border:1px solid #c9c9c9;
+	margin-top: 5px;
+	padding: 8px;
+	border-radius: 6px;
+	font-size: 15px;
+	color: #a9aaaa;
+	background: #eff1f4;
+}
+.content-contact .btn_contact{
+	font-size: 19px;
+	color: #ffffff;
+	background: #2a66bb;
+	padding: 10px 35px;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+.content-contact .contact_right{
+	width: 80%;
+	margin: 0 auto;
+}
+.content-contact .contact_right .infor_contact{
+	
+	background: #ebedf0;
+	border: 2px solid #d6d7d9;
+	border-radius: 8px;
+	padding: 10px;
+	color: #a9aaaa;
+	margin-bottom: 20px;
+}
+.content-contact .contact_right .map img{
+	width: 100%;
+}

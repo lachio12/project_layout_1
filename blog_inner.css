@@ -1,0 +1,64 @@
+.content_inner{
+	margin: 10px 30px;
+}
+.content_inner h2{
+	margin: 0;
+	color: #69696a;
+	font-size: 27px;
+	font-weight: 300;
+}
+.content_inner span{
+	color: #5f7390;
+	margin:0 0 10px;
+}
+.content_inner p{
+	font-size: 15px;
+	color:#b6b6b7;
+}
+.content_inner .blog_introduce h2,.relate h2 {
+	margin: 0;
+	color: #69696a;
+	font-size: 27px;
+	font-weight: 300;
+
+}
+.content_inner .blog_introduce .detail_blog  ul{
+	margin-top: 30px;
+}
+.content_inner .blog_introduce .detail_blog  ul li{
+	list-style: none;
+	padding: 8px;
+	color: #929192;
+}
+.content_inner .blog_introduce .detail_blog  ul li img{
+	margin:0 10px;
+}
+.relate .item_list{
+	display: flex;
+	justify-content: space-around;
+}
+.relate .box_item_list .infor{
+	margin-left: 8px;
+}
+.relate .box_item_list .infor h3{
+	color: #505050;
+	font-size: 22px;
+	font-weight: 300;
+	margin: 5px 0;
+}
+.relate .box_item_list .infor p{
+	color:#8e9bae;
+	margin:4px 0;
+}
+.relate .box_item_list .infor button{
+	color:#fff;
+	background: #444458;
+	border:none;
+	box-shadow: 2px 2px 4px #5f7390;
+	border-radius: 6px;
+	padding: 5px 10px;
+	font-size: 10px;
+}
+.relate .box_item_list .infor button:hover{
+	background: #2b67bb;
+}
